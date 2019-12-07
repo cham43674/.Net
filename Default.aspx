@@ -7,23 +7,26 @@
     <title></title>
 </head>
 <body>
+<center>
     <form id="form1" runat="server">
+        Login ID<asp:TextBox 
+            ID="TextBox1" runat="server" ontextchanged="TextBox1_TextChanged" Width="206px" 
+            BackColor="#99FF99" BorderColor="#66FF33" BorderStyle="Dashed" 
+            ForeColor="#FF0066">Login ID</asp:TextBox>
+        <br />
+    <br />
     <div>
- 
-    <asp:Button ID="Button1" runat="server" Text="BtnClick" 
-            onclick="Button1_Click" />
- 
+        Password<asp:TextBox ID="TextBox2" runat="server" Width="203px" 
+            BackColor="#99FF99" BorderColor="#66FF33" BorderStyle="Dashed" 
+            ForeColor="#FF0066">Password</asp:TextBox>
+        <br />
     </div>
     <p>
-        <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" 
-            onselectedindexchanged="DropDownList1_SelectedIndexChanged">
-            <asp:ListItem>DEFAULT</asp:ListItem>
-            <asp:ListItem>MANGO</asp:ListItem>
-            <asp:ListItem>PINEAPPLE</asp:ListItem>
-            <asp:ListItem>JACKFRUIT</asp:ListItem>
-            <asp:ListItem>APPLE</asp:ListItem>
-        </asp:DropDownList>
+                                  <asp:Button ID="Button1" runat="server" Height="32px" onclick="Button1_Click" 
+            Text="Sign In" Width="77px" BackColor="Yellow" BorderColor="Red" BorderStyle="Groove" 
+                                      ForeColor="#CC33FF" />
     </p>
     </form>
+    </center>
 </body>
 </html>

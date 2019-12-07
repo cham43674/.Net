@@ -11,14 +11,12 @@ public partial class _Default : System.Web.UI.Page
     {
 
     }
+    protected void TextBox1_TextChanged(object sender, EventArgs e)
+    {
+
+    }
     protected void Button1_Click(object sender, EventArgs e)
     {
-        Response.Write("HELLO SYCS");
-    }
-    protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
-    {
-        string message = DropDownList1.SelectedItem.Text + " " + DropDownList1.SelectedItem.Value;
-        Response.Write(message);
-        ClientScript.RegisterStartupScript(this.GetType(), "Alert", "alert('" + message + "');",true);
+
     }
 }
