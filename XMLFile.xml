@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>10006.jpg</ImageUrl>
+    <NavigateUrl>https://www.google.com</NavigateUrl>
+    <AlternateText>
+      Order Flowers ,Roses ,Gifts 
+      And More
+    </AlternateText>
+    <Impressions>50</Impressions>
+    <keyword>Flowers</keyword>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>earth.jpg</ImageUrl>
+    <NavigateUrl>https://www.google.com</NavigateUrl>
+    <AlternateText>
+      Order Flowers ,Roses ,Gifts And More
+    </AlternateText>
+    <Impressions>50</Impressions>
+    <keyword>Flowers</keyword>
+  </Ad>
+</Advertisements>
